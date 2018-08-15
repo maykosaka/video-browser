@@ -1,6 +1,6 @@
 <template>
     <div>
-        <SearchBar></SearchBar>
+        <SearchBar v-on:termChange="kll"></SearchBar>
     </div>
 </template>
 
