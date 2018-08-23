@@ -4,6 +4,7 @@
             v-for="video in videosFound"
             :video="video"
             :key="video.etag"
+            @videoSelect="onVideoSelect"
         >
         </VideoListItem>
     </ul>
@@ -17,8 +18,11 @@ export default {
     components: {
         VideoListItem
     },
-    props: {
-        videosFound: Array // prop validation for type of prop
+    props: ['videosFound'],
+    methods: {
+        onVideoSelect(video) {
+            this.$emit('videoSelect', video);
+        }
     }
 };
 </script>
