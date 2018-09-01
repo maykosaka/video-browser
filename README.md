@@ -2,31 +2,31 @@
 Web app which takes user's search term to return video list from youtube, along with thumbnail and description of each video. Then plays the video that is chosen from the list.
 
 ## Prerequisites and installing
+To run the app, you first need to install npm.
 ```
-npm install -g @vue/cli
+npm install
 ```
-In a new directory:
->vue create video-browser
-You will be asked to pick a preset. Choose: default(babel, eslint)
-Follow instructions >cd video-browser
-                    >npm run serve
-Starting up this server may automatically open your browser to the project. If not, then go to the url that the server shows as the location, something like http://localhost:8080/
-From the code in github video-broswer repo, replace App.vue file and entire src directory.
 
-### Compiles and loads
+Git clone the project
+```
+git clone https://github.com/maykosaka/video-browser.git
+```
+
+cd into the project
+```
+cd video-browser
+```
+
+Install dependencies
+```
+npm install
+```
+
+Start up the server
 ```
 npm run serve
 ```
+If your browser doesn't automatically open to the project then go to the url shown, something like http://localhost:8080/
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 ## Author
 May Kosaka
-github.com/maykosaka
