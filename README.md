@@ -2,9 +2,9 @@
 Web app which takes user's search term to return video list from youtube, along with thumbnail and description of each video. Then plays the video that is chosen from the list.
 
 ## Prerequisites and installing
-To run the app, you first need to install npm.
+To run this app, you need npm installed. If you're not sure if you already have npm, run the below command to check. If you don't have npm, create an account at npmjs.com and follow their instructions.
 ```
-npm install
+npm -v
 ```
 
 Git clone the project
