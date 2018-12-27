@@ -18,7 +18,9 @@ export default {
     components: {
         VideoListItem
     },
-    props: ['videosFound'],
+    props: {
+        videosFound: Array
+    },
     methods: {
         onVideoSelect(video) {
             this.$emit('videoSelect', video);
