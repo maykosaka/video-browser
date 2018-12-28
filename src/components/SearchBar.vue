@@ -1,6 +1,9 @@
 <template>
     <div>
-        <input @input="onInput" />
+        <ul>
+            <li>Video Crawler</li>
+            <li><input @input="onInput" /></li>
+        </ul>
     </div>
 </template>
 
@@ -23,5 +26,13 @@ export default {
     div {
         text-align: center;
         margin: 20px;
+    }
+
+    ul {
+        list-style-type: none
+    }
+
+    li {
+        margin: 10px;
     }
 </style>
